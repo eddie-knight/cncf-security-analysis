@@ -1,0 +1,401 @@
+Foundation,Project,Repository URL,Check Sets,Adopters,Annual Review,Changelog,Code of Conduct,Contributing,Governance,Maintainers,Readme,Roadmap,Summary Table,Website,License Approved,License Scanning,License SPDX ID,Analytics,ArtifactHub Badge,CLA,Community Meeting,DCO,GitHub discussions,OpenSSF best practices badge,OpenSSF Scorecard badge,Recent Release,Slack Presence,Binary Artifacts,Code Review,Dangerous Workflow,Dependency Update Tool,Maintained,SBOM,Security Policy,Signed Releases,Token Permissions,Trademark Disclaimer
+cncf,aeraki-mesh,https://github.com/aeraki-mesh/aeraki,"{community,code}",f,t,t,t,t,t,t,t,f,t,t,t,t,Apache-2.0,GA3,f,f,t,t,t,f,f,t,t,t,f,t,t,t,f,t,f,f,t
+cncf,akri,https://github.com/project-akri/akri,"{community,code}",t,t,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA4,f,f,t,t,t,t,f,f,t,t,t,t,f,t,f,t,f,f,f
+cncf,akri,https://github.com/project-akri/akri-docs,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,antrea,https://github.com/antrea-io/antrea,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,,f,f,t,t,f,t,f,t,t,t,t,f,t,t,f,t,f,f,t
+cncf,argo,https://github.com/argoproj/argo-helm,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,t,f,,t,,f,t,t,,t,t,t,f,t,f,t,f,t,
+cncf,argo,https://github.com/argoproj/argo-cd,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,t,f,,t,,t,t,t,,t,f,t,t,t,t,t,t,t,
+cncf,argo,https://github.com/argoproj/argoproj,{community},t,f,,t,t,t,,t,f,t,t,,,"Not detected",GA4,,,t,,f,,,,t,,,,,,,t,,,t
+cncf,argo,https://github.com/argoproj/argo-rollouts,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,t,f,,t,,t,f,t,,t,t,t,t,t,t,t,t,t,
+cncf,argo,https://github.com/argoproj/argo-events,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,t,f,,t,,t,f,t,,t,t,t,t,t,t,t,t,t,
+cncf,argo,https://github.com/argoproj/argo-site,{docs},,,,,,,,t,,,,t,,MIT,,,,,,,,,,,,,,,,,,,,
+cncf,argo,https://github.com/argoproj/argo-workflows,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,t,f,,t,,t,f,t,,t,t,t,t,t,t,t,t,f,
+cncf,armada,https://github.com/G-Research/armada,"{community,code}",f,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,GA4,f,f,f,t,t,f,f,t,t,f,f,f,f,f,t,f,f,f,f
+cncf,artifact-hub,https://github.com/artifacthub/hub,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,,t,f,t,t,t,t,f,t,t,t,t,t,t,t,t,t,t,t,f
+cncf,athenz,https://github.com/AthenZ/athenz,"{community,code}",t,t,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,GA4,f,f,f,t,f,t,f,t,f,t,f,t,t,t,f,t,f,t,t
+cncf,backstage,https://github.com/backstage/backstage,"{community,code}",t,f,f,t,t,t,t,t,t,t,t,t,f,Apache-2.0,GA4,f,f,t,t,t,t,t,t,f,t,t,f,t,t,f,t,f,f,f
+cncf,bfe,https://github.com/bfenetworks/bfe,"{community,code}",t,t,t,t,t,t,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,t,t,f,t,t,f,f,t,f,f,f
+cncf,buildpacks,https://github.com/buildpacks/pack,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,buildpacks,https://github.com/buildpacks/community,{community},t,f,,t,t,t,,t,t,f,t,,,"Not detected",GA4,,,t,,t,,,,f,,,,,,,t,,,t
+cncf,capsule,https://github.com/clastix/capsule-proxy,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+cncf,capsule,https://github.com/clastix/capsule,"{community,code}",t,f,f,t,f,t,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,f,t,f,f,t,t,t,f,t,t,t,f,f,f,f,f
+cncf,carina,https://github.com/carina-io/carina,"{code,community}",t,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,f,t,f,t,f,t,f,t,f,f,f,f,f,f,f
+cncf,carvel,https://github.com/vmware-tanzu/carvel-kapp-controller,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,carvel,https://github.com/vmware-tanzu/carvel-imgpkg,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,f,t,t,f,t,f,f,
+cncf,carvel,https://github.com/vmware-tanzu/carvel-kapp,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,carvel,https://github.com/vmware-tanzu/carvel-ytt,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,carvel,https://github.com/vmware-tanzu/carvel-vendir,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,carvel,https://github.com/vmware-tanzu/carvel-secretgen-controller,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,carvel,https://github.com/vmware-tanzu/carvel,{community},t,f,,t,t,t,,t,t,f,f,,,"Not detected",,,,t,,f,,,,t,,,,,,,t,,,f
+cncf,cdk8s,https://github.com/cdk8s-team/cdk8s,"{community,code}",t,t,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,t,t,f,f,f,f,t,t,t,t,t,f,t,f,t,t
+cncf,cdk8s,https://github.com/cdk8s-team/cdk8s-plus,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,cert-manager,https://github.com/jetstack/cert-manager,"{community,code}",t,f,t,t,t,f,t,t,t,t,t,t,f,Apache-2.0,GA3,t,f,t,t,t,f,t,t,f,t,t,t,f,t,f,t,f,t,t
+cncf,chaos-blade,https://github.com/chaosblade-io/chaosblade,"{community,code}",f,t,f,t,t,t,t,t,f,f,t,t,f,Apache-2.0,GA4,f,f,f,t,f,t,f,t,f,t,f,t,f,t,f,t,f,t,t
+cncf,chaos-mesh,https://github.com/chaos-mesh/chaos-mesh,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,GA3,t,f,t,t,t,t,f,t,t,t,f,t,t,t,t,t,t,t,t
+cncf,chubao-fs,https://github.com/chubaofs/chubaofs,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,GA4,t,f,t,t,t,t,t,t,f,t,t,t,t,t,f,t,f,t,t
+cncf,cilium,https://github.com/cilium/cilium,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,GA4,t,f,t,t,f,t,f,t,f,t,f,f,t,t,t,t,f,f,t
+cncf,cilium,https://github.com/cilium/tetragon,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,cilium,https://github.com/cilium/hubble,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,cilium,https://github.com/cilium/ebpf,{code-lite},,,,,t,,t,t,,,,t,,MIT,,,f,,t,,,,t,,,,,,,,,,,
+cncf,cloud-custodian,https://github.com/cloud-custodian/cloud-custodian,"{community,code}",t,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,GA3,f,t,t,f,t,t,f,t,f,t,t,t,t,t,f,t,f,f,f
+cncf,cloudevents,https://github.com/cloudevents/sdk-javascript,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,cloudevents,https://github.com/cloudevents/sdk-java,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,cloudevents,https://github.com/cloudevents/sdk-python,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,cloudevents,https://github.com/cloudevents/spec,{community},t,f,,t,t,t,,t,t,t,t,,,"Not detected",,,,t,,f,,,,t,,,,,,,t,,,t
+cncf,cloudevents,https://github.com/cloudevents/sdk-csharp,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,cloudevents,https://github.com/cloudevents/sdk-go,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,clusternet,https://github.com/clusternet/clusternet,"{community,code}",f,f,t,t,t,f,t,t,t,f,t,t,t,Apache-2.0,GA4,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,f,f,f,t
+cncf,clusterpedia,https://github.com/clusterpedia-io/clusterpedia,"{community,code}",f,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA4,t,f,f,t,t,t,f,t,t,t,f,t,t,t,f,f,f,f,f
+cncf,cni,https://github.com/containernetworking/cni,"{community,code}",f,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,t,f,f,f,f,t,t,f,t,t,t,f,t,f,f,t
+cncf,cni-genie,https://github.com/cni-genie/CNI-Genie,"{community,code}",f,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,GA4,f,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,t,f
+cncf,confidential-containers,https://github.com/confidential-containers/documentation,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,confidential-containers,https://github.com/confidential-containers/community,{community},f,t,,t,t,t,,t,t,f,f,,,"Not detected",,,,f,,f,,,,f,,,,,,,f,,,f
+cncf,confidential-containers,https://github.com/confidential-containers/operator,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,containerd,https://github.com/containerd/containerd,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,"GA3 GA4",f,f,f,t,t,t,f,t,t,t,t,t,f,t,f,t,f,t,t
+cncf,containerssh,https://github.com/ContainerSSH/libcontainerssh,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,f,,,,,,,,,,,
+cncf,containerssh,https://github.com/ContainerSSH/containerssh.github.io,{docs},,,,,,,,t,,,,t,,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,
+cncf,containerssh,https://github.com/ContainerSSH/ContainerSSH,"{community,code}",f,f,f,t,t,f,f,t,f,f,t,t,f,Apache-2.0,,f,f,f,f,t,f,f,f,f,t,f,t,t,f,f,t,t,f,f
+cncf,contour,https://github.com/projectcontour/contour,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,contour,https://github.com/projectcontour/community,{community},f,f,,t,t,t,,t,t,f,f,,,"Not detected",,,,t,,f,,,,f,,,,,,,t,,,f
+cncf,core-dns,https://github.com/coredns/coredns,"{community,code}",t,f,t,t,t,t,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,t,t,f,t,t,t,f,t,f,f,t
+cncf,cortex,https://github.com/cortexproject/cortex,"{community,code}",t,f,t,t,t,t,t,t,f,t,t,t,f,Apache-2.0,GA4,f,f,t,t,t,t,f,t,t,t,t,t,t,t,t,t,t,t,t
+cncf,cri-o,https://github.com/cri-o/cri-o,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,GA3,f,f,t,t,t,t,f,t,t,t,t,t,t,t,f,t,t,f,t
+cncf,crossplane,https://github.com/crossplane/crossplane,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,,f,f,t,t,t,f,f,t,f,t,t,t,t,t,f,t,f,f,t
+cncf,curiefense,https://github.com/curiefense/curiefense,"{community,code}",f,f,f,t,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,f,f,f,t,t,t,t,f,t,f,f,f
+cncf,curve,https://github.com/opencurve/curve,"{community,code}",f,f,t,t,t,t,t,t,f,f,t,t,f,Apache-2.0,,f,f,t,t,t,t,f,t,f,t,f,t,t,t,f,f,f,f,f
+cncf,dapr,https://github.com/dapr/dapr,"{community,code}",f,f,f,t,t,t,t,t,f,t,t,t,t,Apache-2.0,"GA3 GA4",f,f,t,t,f,t,f,t,f,t,t,t,t,t,f,t,f,f,t
+cncf,devfile,https://github.com/devfile/api,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,t,t,f,t,f,f,f,f,
+cncf,devfile,https://github.com/devfile/library,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,devfile,https://github.com/devfile/registry,{community},f,f,,f,t,f,,t,f,f,t,,,"Not detected",,,,f,,f,,,,f,,,,,,,f,,,f
+cncf,devspace,https://github.com/loft-sh/devspace,"{community,code}",f,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,t,f,f,f
+cncf,devstream,https://github.com/devstream-io/devstream,"{community,code}",f,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA4,f,f,f,t,t,f,f,t,f,t,f,t,f,f,f,t,f,f,t
+cncf,dex,https://github.com/dexidp/dex,"{community,code}",t,f,t,t,f,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,f,t,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,distribution,https://github.com/distribution/distribution,"{community,code}",t,t,t,t,t,t,t,t,t,f,f,t,t,Apache-2.0,,f,f,f,t,t,f,t,t,t,t,t,t,t,t,f,t,f,t,f
+cncf,dragonfly,https://github.com/dragonflyoss/Dragonfly2,"{community,code}",t,f,t,t,t,t,t,t,f,t,t,t,f,Apache-2.0,GA4,t,f,f,t,t,t,f,t,t,t,f,t,t,t,f,t,f,f,t
+cncf,emissary-ingress,https://github.com/emissary-ingress/emissary,{code},,,t,,f,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,f,f,f,
+cncf,emissary-ingress,https://github.com/emissary-ingress/community,{community},f,f,,t,f,t,,t,f,t,f,,,"Not detected",,,,t,,f,,,,f,,,,,,,f,,,f
+cncf,envoy,https://github.com/envoyproxy/envoy-website,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,envoy,https://github.com/envoyproxy/go-control-plane,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,envoy,https://github.com/envoyproxy/xds-relay,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,envoy,https://github.com/envoyproxy/envoy,"{community,code}",f,f,t,t,t,t,t,t,f,f,t,t,f,Apache-2.0,GA4,f,f,t,t,f,t,f,t,f,t,t,t,t,t,f,t,t,f,t
+cncf,envoy,https://github.com/envoyproxy/java-control-plane,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,eraser,https://github.com/Azure/eraser,"{community,code}",f,f,f,t,t,f,t,t,f,f,t,t,t,Apache-2.0,,f,f,t,t,t,f,t,t,t,t,t,t,t,t,f,t,f,f,f
+cncf,etcd,https://github.com/etcd-io/etcd,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,f,Apache-2.0,GA4,f,f,t,t,t,f,t,t,t,t,t,t,t,t,f,t,f,t,t
+cncf,etcd,https://github.com/etcd-io/zetcd,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,f,,,,,,,,,,,
+cncf,etcd,https://github.com/etcd-io/jetcd,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,etcd,https://github.com/etcd-io/etcdlabs,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,f,,,,,,,,,,,
+cncf,etcd,https://github.com/etcd-io/dbtester,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,f,,,,,,,,,,,
+cncf,external-secrets,https://github.com/external-secrets/external-secrets,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,GA4,t,f,t,t,t,t,f,t,f,t,t,t,t,t,t,t,t,f,t
+cncf,fabedge,https://github.com/FabEdge/fabedge,"{community,code}",f,t,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,t,t,f,f,f,t,t,t,f,t,t,t,f,f,f,f,f
+cncf,fabedge,https://github.com/FabEdge/fab-dns,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,falco,https://github.com/falcosecurity/falcosidekick,{code-lite},,,,,t,,t,t,,,,t,,MIT,,,f,,t,,,,t,,,,,,,,,,,
+cncf,falco,https://github.com/falcosecurity/falco,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,f,Apache-2.0,"GA3 GA4",f,f,f,t,f,t,f,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,flagger,https://github.com/fluxcd/flagger,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,,t,f,t,t,f,t,f,t,t,t,t,t,t,t,t,t,t,t,f
+cncf,fluentd,https://github.com/fluent/fluent-bit-docs,{docs},,,,,,,,t,,,,f,,"Not detected",,,,,,,,,,,,,,,,,,,,
+cncf,fluentd,https://github.com/fluent/fluentd,"{community,code}",t,f,t,t,t,t,t,t,f,f,t,t,f,Apache-2.0,"GA4 HubSpot",f,f,f,t,t,t,f,t,f,t,f,t,f,t,f,t,f,f,f
+cncf,fluentd,https://github.com/fluent/fluent-bit,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,fluid,https://github.com/fluid-cloudnative/fluid,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,t,f,t,t,f,t,t,t,t,t,t,t,t,t,f,t,f,t,t
+cncf,flux-project,https://github.com/fluxcd/flux2,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,t,f,,t,,t,t,t,,t,t,f,t,t,t,t,t,t,
+cncf,flux-project,https://github.com/fluxcd/community,{community},t,f,,t,t,t,,t,t,t,t,,,"Not detected",,,,t,,f,,,,t,,,,,,,t,,,t
+cncf,fonio,https://github.com/foniod/redbpf,{code},,,f,,f,,f,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,f,,t,f,t,f,f,f,f,f,f,
+cncf,fonio,https://github.com/foniod/foniod,{code},,,f,,f,,f,t,,,,f,f,GPL-3.0-only,,f,f,,f,,f,f,f,,t,f,t,f,f,f,f,f,t,
+cncf,fonio,https://github.com/foniod/project,{community},f,f,,t,t,f,,t,f,f,t,,,"Not detected",,,,f,,f,,,,f,,,,,,,f,,,t
+cncf,grpc,https://github.com/grpc/grpc-java,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,grpc,https://github.com/grpc/grpc,"{community,code}",f,f,f,t,t,t,t,t,f,f,t,t,f,Apache-2.0,GA4,f,t,f,f,f,f,f,t,f,t,t,t,t,t,f,t,f,t,t
+cncf,grpc,https://github.com/grpc/grpc-node,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,grpc,https://github.com/grpc/grpc.io,{docs},,,,,,,,t,,,,t,,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,
+cncf,grpc,https://github.com/grpc/grpc-web,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,grpc,https://github.com/grpc/grpc-go,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,harbor,https://github.com/goharbor/harbor,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,t,f,
+cncf,harbor,https://github.com/goharbor/community,{community},t,f,,t,t,t,,t,t,t,t,,,"Not detected",,,,t,,f,,,,t,,,,,,,t,,,t
+cncf,headlamp,https://github.com/headlamp-k8s/headlamp,"{community,code}",f,f,f,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,f,f,f,f,t,t,t,f,t,t,t,f,t,f,f,f
+cncf,helm,https://github.com/helm/helm,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,t,f,,t,,t,f,t,,t,t,t,t,t,f,t,t,f,
+cncf,helm,https://github.com/helm/community,{community},f,f,,t,f,t,,t,f,f,t,,,"Not detected","GA3 GA4",,,t,,f,,,,f,,,,,,,t,,,t
+cncf,hexapolicyorchestrator,https://github.com/hexa-org/policy,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,f,,,,,,,,,,,
+cncf,hexapolicyorchestrator,https://github.com/hexa-org/policy-orchestrator,"{community,code}",f,f,f,t,t,f,t,t,t,f,t,t,f,Apache-2.0,HubSpot,f,f,f,t,f,f,f,t,f,t,f,t,f,t,f,t,f,f,f
+cncf,hwameistor,https://github.com/hwameistor/hwameistor,"{community,code}",t,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,t,t,f,t,f,t,f,f,f,f,f
+cncf,hwameistor,https://github.com/hwameistor/hwameistor-operator,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,inclavare,https://github.com/alibaba/inclavare-containers,"{community,code}",t,t,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,f
+cncf,inspektor-gadget,https://github.com/inspektor-gadget/inspektor-gadget,"{community,code}",f,f,t,f,t,f,t,t,f,f,t,t,f,Apache-2.0,,t,f,f,t,f,f,f,t,t,f,t,t,t,t,f,t,t,f,f
+cncf,in-toto,https://github.com/in-toto/in-toto,"{community,code}",f,f,t,f,t,t,t,t,t,t,t,t,f,Apache-2.0,,f,f,f,t,f,t,f,t,f,t,t,t,t,t,f,t,t,f,t
+cncf,istio,https://github.com/istio/istio.io,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,istio,https://github.com/istio/proxy,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,f,,,,,,,,,,,
+cncf,istio,https://github.com/istio/community,{community},f,f,,t,t,f,,t,f,t,t,,,"Not detected","GA3 GA4",,,t,,t,,,,f,,,,,,,t,,,f
+cncf,istio,https://github.com/istio/istio,{code},,,f,,t,,t,t,,,,t,f,Apache-2.0,,f,t,,f,,t,f,t,,t,f,t,t,t,f,t,f,t,
+cncf,jaeger,https://github.com/jaegertracing/jaeger,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,GA3,t,f,t,t,t,t,f,t,t,t,f,t,t,t,t,t,t,f,t
+cncf,jaeger,https://github.com/jaegertracing/jaeger-ui,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,jaeger,https://github.com/jaegertracing/documentation,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,k3s,https://github.com/k3s-io/k3s,"{community,code}",t,t,t,t,t,f,t,t,t,f,t,t,t,Apache-2.0,,f,f,f,t,t,f,f,t,f,t,t,t,t,t,f,t,f,t,t
+cncf,k8gb,https://github.com/k8gb-io/k8gb,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,GA4,t,f,t,t,f,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+cncf,k8up,https://github.com/k8up-io/k8up,"{community,code}",t,t,t,t,t,t,t,t,f,f,t,t,t,Apache-2.0,,t,f,f,t,t,t,t,t,f,t,f,t,t,t,f,t,f,f,f
+cncf,karmada,https://github.com/karmada-io/karmada,"{community,code}",t,t,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,GA3,f,f,t,t,t,t,f,t,t,t,t,t,f,t,f,t,f,f,t
+cncf,keda,https://github.com/kedacore/keda,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,GA4,t,f,t,t,t,t,f,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,kepler,https://github.com/sustainable-computing-io/kepler-model-db,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,kepler,https://github.com/sustainable-computing-io/kepler-operator,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,kepler,https://github.com/sustainable-computing-io/kepler-model-server,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,kepler,https://github.com/sustainable-computing-io/kepler-estimator,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,f,,,,,,,,,,,
+cncf,kepler,https://github.com/sustainable-computing-io/kepler-action,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,kepler,https://github.com/sustainable-computing-io/kepler-helm-chart,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,kepler,https://github.com/sustainable-computing-io/kepler,"{community,code}",t,f,f,t,t,t,t,t,f,f,t,t,f,Apache-2.0,,f,f,t,t,t,t,f,t,f,t,f,t,t,t,t,f,f,f,t
+cncf,kepler,https://github.com/sustainable-computing-io/kepler-doc,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,keptn,https://github.com/keptn/keptn,"{community,code}",t,f,t,t,t,f,t,t,f,t,t,t,f,Apache-2.0,,f,f,t,t,t,t,f,t,f,t,t,t,t,t,t,t,f,f,f
+cncf,keycloak,https://github.com/keycloak/keycloak,"{community,code}",t,f,f,t,t,t,t,t,f,t,t,t,f,Apache-2.0,,f,f,f,f,t,f,f,t,f,t,t,t,t,t,f,t,t,f,f
+cncf,keylime,https://github.com/keylime/keylime,"{community,code}",f,t,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,t,f,f,f,t,t,t,f,t,t,t,f,t,f,f,f
+cncf,knative,https://github.com/knative/client,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,knative,https://github.com/knative/serving,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,t,,f,,t,f,t,,t,t,t,f,t,f,f,t,f,
+cncf,knative,https://github.com/knative/community,{community},t,f,,t,t,t,,t,f,t,t,,,"Not detected",GA4,,,t,,t,,,,f,,,,,,,t,,,f
+cncf,knative,https://github.com/knative/docs/,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,knative,https://github.com/knative/test-infra,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,f,,,,,,,,,,,
+cncf,knative,https://github.com/knative/eventing,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,knative,https://github.com/knative/func,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,knative,https://github.com/knative/operator,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,knative,https://github.com/knative/networking,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,f,,,,,,,,,,,
+cncf,knative,https://github.com/knative/pkg,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,t,,,,f,,,,,,,,,,,
+cncf,ko,https://github.com/ko-build/ko,"{community,code}",f,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,f,f,f,f,t,t,t,t,t,t,t,f,f,t,f,t
+cncf,konveyor,https://github.com/konveyor/community,{community},f,f,,t,t,t,,t,f,t,f,,,"Not detected",,,,t,,f,,,,t,,,,,,,f,,,f
+cncf,kpt,https://github.com/GoogleContainerTools/kpt,"{community,code}",f,f,f,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,t,f,f,f,f,f,t,t,t,t,t,t,t,f,f,t,f,f
+cncf,krator,https://github.com/krator-rs/krator,"{community,code}",f,f,f,t,t,f,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,f,t,f,f,t,t,f,t,f,f,f,f,f,f,f
+cncf,krustlet,https://github.com/krustlet/krustlet,"{community,code}",f,f,f,t,t,f,t,t,f,f,t,t,f,Apache-2.0,GA3,f,f,t,t,f,t,f,f,t,t,t,t,f,f,f,f,f,f,f
+cncf,kubearmor,https://github.com/kubearmor/kastore,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,kubearmor,https://github.com/kubearmor/kvm-service,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,kubearmor,https://github.com/kubearmor/kubearmor,"{community,code}",t,t,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,GA4,t,f,t,t,t,t,t,t,f,f,t,t,t,t,f,t,f,f,t
+cncf,kubearmor,https://github.com/kubearmor/kubearmor-client,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,kubearmor,https://github.com/kubearmor/policy-templates,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,kubeclipper,https://github.com/kubeclipper/community,{community},f,f,,t,f,f,,t,t,f,f,,,"Not detected",,,,f,,f,,,,f,,,,,,,f,,,f
+cncf,kubeclipper,https://github.com/kubeclipper/kubeclipper.github.io,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,kubeclipper,https://github.com/kubeclipper/kubeclipper,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,t,t,t,t,f,f,f,f,
+cncf,kubedl,https://github.com/kubedl-io/kubedl,"{community,code}",f,t,f,t,t,t,t,t,f,f,t,t,t,Apache-2.0,,f,f,f,t,f,t,f,t,f,t,f,t,t,f,f,t,f,f,t
+cncf,kube-edge,https://github.com/kubeedge/kubeedge,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,t,f,
+cncf,kube-edge,https://github.com/kubeedge/sedna,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,kube-edge,https://github.com/kubeedge/community,{community},f,f,,t,f,t,,t,t,t,f,,,"Not detected",,,,t,,f,,,,f,,,,,,,f,,,f
+cncf,kube-edge,https://github.com/kubeedge/edgemesh,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,kube-ovn,https://github.com/kubeovn/kube-ovn,"{community,code}",t,t,t,t,f,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,t,f,f,t,f,t,f,t,t,t,f,t,f,f,f
+cncf,kuberhealthy,https://github.com/kuberhealthy/kuberhealthy,"{community,code}",t,f,t,t,t,f,t,t,f,f,f,t,f,Apache-2.0,,f,f,t,t,f,t,f,f,t,t,f,t,f,f,f,f,f,f,f
+cncf,kubernetes,https://github.com/kubernetes/kubernetes,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA4,f,t,t,f,f,t,f,t,f,t,t,t,f,t,f,t,f,t,t
+cncf,kube-rs,https://github.com/kube-rs/kube-rs,"{community,code}",t,t,t,t,t,f,f,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,t,f,f,f
+cncf,kubescape,https://github.com/kubescape/kubescape,"{community,code}",f,f,f,t,t,f,t,t,t,f,f,t,f,Apache-2.0,,f,f,t,t,t,f,f,t,t,t,t,t,t,t,f,t,f,f,f
+cncf,kubevela,https://github.com/oam-dev/spec,{community},f,f,,t,t,t,,t,f,t,t,,,"Not detected",GA3,,,t,,f,,,,f,,,,,,,t,,,f
+cncf,kubevela,https://github.com/oam-dev/kubevela,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,t,f,,t,,t,t,t,,t,t,t,t,t,f,t,f,t,
+cncf,kubevirt,https://github.com/kubevirt/community,{community},f,f,,t,f,t,,t,f,t,f,,,"Not detected",,,,f,,f,,,,t,,,,,,,f,,,f
+cncf,kubevirt,https://github.com/kubevirt/kubevirt,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,f,t,f,t,f,t,
+cncf,kubewarden,https://github.com/kubewarden/docs,{docs},,,,,,,,t,,,,t,,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,
+cncf,kubewarden,https://github.com/kubewarden/kwctl,{code},,,f,,t,,t,t,,,,t,t,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,t,t,t,t,
+cncf,kubewarden,https://github.com/kubewarden/policy-server,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,t,f,,t,,t,f,t,,t,t,t,t,t,t,t,t,f,
+cncf,kubewarden,https://github.com/kubewarden/kubewarden-controller,"{community,code}",t,f,f,t,t,t,t,t,t,f,t,t,t,Apache-2.0,GA3,t,f,t,t,f,t,f,t,t,t,t,t,t,t,t,t,t,t,t
+cncf,kudo,https://github.com/kudobuilder/kudo,"{community,code}",f,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,t,t,f,f,f,f,t,t,t,t,t,f,f,t,f,f,f
+cncf,kuma,https://github.com/kumahq/kuma,"{community,code}",f,t,t,t,t,t,t,t,f,t,t,t,f,Apache-2.0,GA3,t,f,t,t,f,t,t,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,kured,https://github.com/kubereboot/website,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,kured,https://github.com/kubereboot/charts,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,kured,https://github.com/kubereboot/kured,"{community,code}",f,f,f,t,t,t,t,t,f,f,t,t,t,Apache-2.0,,t,f,t,t,f,f,f,t,t,t,f,t,t,t,f,t,f,f,t
+cncf,kyverno,https://github.com/kyverno/kyverno,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,,t,f,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+cncf,lima,https://github.com/lima-vm/lima,"{community,code}",t,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,t,f,f,t,t,t,f,t,t,t,f,t,t,f,t
+cncf,linkerd,https://github.com/linkerd/linkerd2-proxy,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,linkerd,https://github.com/linkerd/linkerd2,"{community,code}",t,f,f,t,t,t,t,t,t,t,t,t,f,Apache-2.0,,f,f,t,t,t,t,f,t,f,t,t,t,t,t,f,t,f,t,f
+cncf,litmus-chaos,https://github.com/litmuschaos/litmus,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,,f,f,t,t,t,t,f,t,t,t,t,t,f,t,f,t,f,f,t
+cncf,longhorn,https://github.com/longhorn/longhorn,"{community,code}",f,f,t,t,t,f,t,t,t,t,t,t,t,Apache-2.0,,f,f,t,t,t,f,f,t,t,t,f,t,f,t,f,t,f,f,t
+cncf,merbridge,https://github.com/merbridge/merbridge,"{community,code}",f,f,t,t,f,f,t,t,t,f,t,t,t,Apache-2.0,,f,f,f,t,f,t,f,t,f,t,f,t,t,f,f,f,f,f,f
+cncf,meshery,https://github.com/meshery/meshery,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,,t,f,t,t,t,t,f,t,f,t,f,t,t,t,f,t,f,f,f
+cncf,metal3-io,https://github.com/metal3-io/cluster-api-provider-metal3,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,f,,f,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,metal3-io,https://github.com/metal3-io/baremetal-operator,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+cncf,metal3-io,https://github.com/metal3-io/metal3-docs,{community},t,t,,t,t,f,,t,f,t,t,,,"Not detected",,,,t,,f,,,,t,,,,,,,t,,,t
+cncf,microcks,https://github.com/microcks/microcks,"{community,code}",f,f,f,t,t,f,t,t,f,f,t,t,f,Apache-2.0,GA4,f,f,f,t,t,f,f,f,f,t,f,t,t,t,f,t,f,f,t
+cncf,microcks,https://github.com/microcks/microcks.io,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,nats,https://github.com/nats-io/nats.py,{code-lite},,,,,f,,t,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+cncf,nats,https://github.com/nats-io/nats.js,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+cncf,nats,https://github.com/nats-io/nats.docs,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,nats,https://github.com/nats-io/nats.rs,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+cncf,nats,https://github.com/nats-io/nats.go,{code-lite},,,,,f,,t,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+cncf,nats,https://github.com/nats-io/nats-server,"{community,code}",f,f,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,GA4,f,f,f,f,t,t,f,t,f,t,f,t,f,t,f,t,f,f,f
+cncf,network-service-mesh,https://github.com/networkservicemesh/deployments-k8s,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,network-service-mesh,https://github.com/networkservicemesh/sdk,{code},,,f,,f,,f,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,t,t,t,t,f,f,f,f,
+cncf,network-service-mesh,https://github.com/networkservicemesh/api,{code},,,f,,f,,f,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,t,f,f,f,f,f,f,f,
+cncf,network-service-mesh,https://github.com/networkservicemesh/site,"{community,docs}",f,f,,f,f,f,,t,f,f,t,t,,Apache-2.0,GA3,,,f,,f,,,,t,,,,,,,f,,,f
+cncf,nocalhost,https://github.com/nocalhost/nocalhost,"{community,code}",f,f,t,t,t,t,t,t,t,f,t,f,t,"Not detected",,f,f,f,t,t,t,f,t,t,t,f,t,t,f,f,f,f,f,f
+cncf,notary,https://github.com/notaryproject/notation,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,notary,https://github.com/notaryproject/notary,"{community,code}",f,f,t,t,t,t,t,t,f,f,f,t,t,Apache-2.0,,f,f,f,t,f,f,f,f,f,t,t,t,f,f,f,t,f,t,f
+cncf,ocm,https://github.com/open-cluster-management-io/ocm,{code},,,f,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,f,,t,t,t,t,t,f,t,f,f,
+cncf,ocm,https://github.com/open-cluster-management-io/api,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,ocm,https://github.com/open-cluster-management-io/community,{community},f,t,,t,t,f,,t,f,f,t,,,"Not detected",GA4,,,t,,f,,,,t,,,,,,,t,,,t
+cncf,ocm,https://github.com/open-cluster-management-io/clusteradm,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,opa,https://github.com/open-policy-agent/gatekeeper,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,opa,https://github.com/open-policy-agent/conftest,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,opa,https://github.com/open-policy-agent/opa,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA4,f,f,f,t,f,t,f,t,f,t,f,t,t,t,f,t,f,f,f
+cncf,opcr,https://github.com/opcr-io/policy,"{community,code}",t,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,t,t,t,f,f,f,f,f,t
+cncf,opencost,https://github.com/opencost/opencost,"{community,code}",t,f,f,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA4,f,f,t,t,f,f,f,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,openebs,https://github.com/openebs/website,{community},f,f,,t,t,t,,t,f,f,t,,,"Not detected",,,,f,,f,,,,f,,,,,,,f,,,f
+cncf,openebs,https://github.com/openebs/openebs,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,f,f,,t,,t,f,t,,t,f,t,f,f,f,t,f,f,
+cncf,openebs,https://github.com/openebs/mayastor,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,openebs,https://github.com/openebs/zfs-localpv,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,openelb,https://github.com/openelb/openelb,"{community,code}",t,t,t,t,t,f,t,t,t,t,t,t,f,Apache-2.0,,f,f,f,t,t,f,f,f,f,t,f,t,f,f,f,f,f,f,f
+cncf,openfeature,https://github.com/open-feature/community,{community},t,f,,t,t,t,,t,t,f,t,,,"Not detected",GA4,,,f,,t,,,,t,,,,,,,t,,,f
+cncf,openfeature,https://github.com/open-feature/spec,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,openfeature,https://github.com/open-feature/open-feature-operator,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,t,f,,t,,t,f,t,,t,t,t,t,t,t,t,f,f,
+cncf,openfeature,https://github.com/open-feature/java-sdk,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,t,
+cncf,openfeature,https://github.com/open-feature/flagd,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,openfga,https://github.com/openfga/openfga,{code},,,t,,t,,t,t,,,,t,t,Apache-2.0,,t,t,,f,,t,t,t,,t,t,t,t,t,t,t,t,t,
+cncf,openfga,https://github.com/openfga/go-sdk,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,openfga,https://github.com/openfga/js-sdk,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,openfga,https://github.com/openfga/cli,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,openfga,https://github.com/openfga/dotnet-sdk,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,openfga,https://github.com/openfga/python-sdk,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,openfga,https://github.com/openfga/community,{community},t,f,,t,t,t,,t,t,t,t,,,"Not detected",HubSpot,,,t,,t,,,,f,,,,,,,t,,,t
+cncf,openfga,https://github.com/openfga/openfga.dev,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,openfunction,https://github.com/OpenFunction/OpenFunction,"{community,code}",f,t,t,t,f,t,t,t,t,t,t,t,f,Apache-2.0,GA3,f,t,t,t,t,f,f,t,t,t,t,t,t,t,f,f,f,f,t
+cncf,openfunction,https://github.com/OpenFunction/cli,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,t,,t,,,,f,,,,,,,,,,,
+cncf,open-gitops,https://github.com/open-gitops/project,"{community,code}",t,f,f,t,t,t,t,t,f,f,f,f,f,"Not detected",,f,f,t,t,t,f,f,f,f,t,t,t,f,f,f,t,f,t,f
+cncf,open-kruise,https://github.com/openkruise/kruise,"{community,code}",f,f,t,t,t,t,t,t,f,f,t,t,f,Apache-2.0,,f,f,t,t,t,t,f,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,open-metrics,https://github.com/OpenObservability/OpenMetrics,"{community,code}",t,f,f,t,f,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,t,f
+cncf,open-telemetry,https://github.com/open-telemetry/opentelemetry.io,{docs},,,,,,,,t,,,,t,,CC-BY-4.0,,,,,,,,,,,,,,,,,,,,
+cncf,open-telemetry,https://github.com/open-telemetry/opentelemetry-collector,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,t,,f,,f,f,t,,t,t,t,t,t,f,t,f,f,
+cncf,open-telemetry,https://github.com/open-telemetry/opentelemetry-dotnet,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,open-telemetry,https://github.com/open-telemetry/opentelemetry-js,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,open-telemetry,https://github.com/open-telemetry/community,{community},t,f,,t,t,t,,t,t,t,t,,,"Not detected",GA4,,,t,,t,,,,t,,,,,,,t,,,f
+cncf,open-telemetry,https://github.com/open-telemetry/opentelemetry-java-instrumentation,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,open-telemetry,https://github.com/open-telemetry/opentelemetry-dotnet-instrumentation,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,t,,f,,,,t,,,,,,,,,,,
+cncf,open-telemetry,https://github.com/open-telemetry/opentelemetry-specification,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,openyurt,https://github.com/openyurtio/openyurt,"{community,code}",f,t,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,f,t,t,t,t,f,t,t,t,t,t,f,t,f,f,t
+cncf,operator-framework,https://github.com/operator-framework/community,{community},f,f,,t,f,t,,t,f,f,f,,,"Not detected",,,,t,,t,,,,t,,,,,,,f,,,f
+cncf,operator-framework,https://github.com/operator-framework/operator-lifecycle-manager,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,operator-framework,https://github.com/operator-framework/operator-sdk,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,f,t,t,t,f,t,t,f,
+cncf,oras,https://github.com/oras-project/oras,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,t,t,t,t,f,t,t,f,
+cncf,oras,https://github.com/oras-project/community,{community},f,t,,t,f,t,,t,t,f,f,,,"Not detected",,,,f,,f,,,,t,,,,,,,t,,,f
+cncf,osm,https://github.com/openservicemesh/osm,"{community,code}",f,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,GA3,f,f,t,t,t,f,f,t,t,t,t,t,t,f,f,t,f,f,t
+cncf,paralus,https://github.com/paralus/paralus,"{community,code}",f,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA4,f,f,f,t,f,t,f,t,f,t,t,t,t,t,f,f,f,f,t
+cncf,parsec,https://github.com/parallaxsecond/parsec,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,f,t,f,t,f,f,
+cncf,parsec,https://github.com/parallaxsecond/community,{community},f,f,,f,f,f,,t,t,f,f,,,"Not detected",,,,t,,f,,,,t,,,,,,,f,,,f
+cncf,pipecd,https://github.com/pipe-cd/pipecd,"{community,code}",t,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,GA4,f,f,f,t,t,f,f,t,f,t,t,t,t,t,f,f,f,f,t
+cncf,piraeus,https://github.com/piraeusdatastore/piraeus,"{community,code}",f,f,f,t,t,t,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,f,f,f,f,f,t,f,t,f,f,f,f,f,f,f
+cncf,pixie,https://github.com/pixie-io/pixie,"{community,code}",t,t,t,t,t,t,t,t,t,t,t,t,t,Apache-2.0,HubSpot,t,f,t,t,f,t,t,t,t,t,t,t,t,t,t,t,t,t,t
+cncf,porter,https://github.com/getporter/porter,"{community,code}",t,t,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,t,t,f,f,t,f,t,t,t,t,t,f,f,f,f,t
+cncf,pravega,https://github.com/pravega/pravega,"{community,code}",f,f,f,t,t,f,f,t,f,f,t,t,f,Apache-2.0,GA3,f,f,f,t,t,t,f,t,f,t,t,t,f,t,f,f,t,f,t
+cncf,prometheus,https://github.com/prometheus/node_exporter,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,prometheus,https://github.com/prometheus/docs,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,prometheus,https://github.com/prometheus/alertmanager,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,prometheus,https://github.com/prometheus/prometheus,"{community,code}",f,f,t,t,t,f,t,t,f,t,t,t,f,Apache-2.0,GA4,f,f,f,t,t,t,f,t,f,t,t,t,t,t,f,t,f,f,t
+cncf,rook,https://github.com/rook/rook,"{community,code}",t,f,f,t,t,t,t,t,t,t,t,t,t,Apache-2.0,,f,f,t,t,t,t,f,t,f,t,t,t,t,t,f,t,f,f,t
+cncf,schemahero,https://github.com/schemahero/schemahero,"{community,code}",t,f,f,t,t,f,t,t,t,f,t,t,f,Apache-2.0,GA3,f,f,f,t,f,f,f,t,t,t,t,t,t,t,f,f,f,f,t
+cncf,sealer,https://github.com/sealerio/sealer,{code},,,f,,t,,t,t,,,,t,t,Apache-2.0,,f,f,,t,,t,f,t,,t,t,f,t,t,f,f,f,f,
+cncf,sealer,https://github.com/sealerio/community,{community},f,t,,f,f,t,,t,f,f,f,,,"Not detected",,,,t,,f,,,,f,,,,,,,f,,,f
+cncf,serverless-devs,https://github.com/Serverless-Devs/core,{code-lite},,,,,t,,f,t,,,,t,,MIT,,,f,,t,,,,t,,,,,,,,,,,
+cncf,serverless-devs,https://github.com/Serverless-Devs/registry-cli,{code-lite},,,,,f,,f,f,,,,t,,MIT,,,f,,t,,,,t,,,,,,,,,,,
+cncf,serverless-devs,https://github.com/serverless-devs/serverless-devs,"{community,code}",f,f,f,t,t,f,t,f,t,f,t,t,f,Apache-2.0,,f,f,f,t,t,f,f,t,f,t,f,t,f,t,f,f,f,f,t
+cncf,serverless-workflow,https://github.com/serverlessworkflow/specification,"{community,code}",f,t,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA3,f,f,t,t,t,f,f,f,t,t,t,t,f,t,f,f,f,f,f
+cncf,skooner,https://github.com/skooner-k8s/skooner,"{community,code}",f,f,f,t,t,f,t,t,f,f,t,t,t,Apache-2.0,,f,f,f,t,t,f,f,f,f,t,f,t,t,t,f,f,f,f,f
+cncf,slimtoolkit,https://github.com/slimtoolkit/slim,"{community,code}",t,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,t,f,f,t,t,t,f,t,t,t,f,t,f,f,f
+cncf,smi,https://github.com/servicemeshinterface/smi-spec,"{community,code}",f,f,t,t,t,t,t,t,f,f,t,t,f,Apache-2.0,,f,f,t,t,f,f,f,f,t,t,t,t,f,f,f,f,f,f,t
+cncf,smi,https://github.com/servicemeshinterface/smi-sdk-go,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,f,,t,t,t,f,f,f,f,f,f,
+cncf,smi,https://github.com/servicemeshinterface/smi-metrics,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,f,,t,t,t,f,f,f,f,f,f,
+cncf,smp,https://github.com/service-mesh-performance/service-mesh-performance,"{community,code}",f,f,f,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,f,f,t,f,t,f,t,f,t,t,t,f,f,f,f,f
+cncf,sops,https://github.com/mozilla/sops,"{community,code}",f,f,t,t,t,f,f,t,f,f,f,f,f,MPL-2.0,,f,f,f,t,t,f,f,f,f,t,t,t,t,t,f,t,t,f,f
+cncf,sops,https://github.com/mozilla/sotp,{code-lite},,,,,f,,f,t,,,,f,,"Not detected",,,f,,t,,,,f,,,,,,,,,,,
+cncf,spiffe,https://github.com/spiffe/spiffe,"{community,code}",f,f,f,t,t,t,t,t,f,t,t,t,f,Apache-2.0,GA3,f,f,f,t,f,f,f,f,f,t,t,t,f,t,f,f,f,t,t
+cncf,spire,https://github.com/spiffe/spire,"{community,code}",t,f,t,t,t,t,t,t,t,t,t,t,f,Apache-2.0,GA3,f,f,f,t,f,t,f,t,f,t,t,t,t,t,f,t,f,t,t
+cncf,strimzi,https://github.com/strimzi/strimzi-kafka-oauth,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,strimzi,https://github.com/strimzi/strimzi-kafka-bridge,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,strimzi,https://github.com/strimzi/strimzi-kafka-operator,"{community,code}",t,t,t,t,t,t,t,t,t,t,t,t,f,Apache-2.0,GA3,t,f,t,t,t,f,f,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,submariner,https://github.com/submariner-io/submariner,"{community,code}",t,f,f,t,t,t,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,f,f,t,f
+cncf,superedge,https://github.com/superedge/superedge,"{community,code}",f,f,t,t,t,t,t,t,f,f,t,f,f,"Not detected",GA3,f,f,f,t,f,f,f,f,t,t,t,t,f,t,f,t,f,f,t
+cncf,telepresence,https://github.com/telepresenceio/telepresence,"{community,code}",f,f,t,f,f,t,t,t,f,t,t,t,f,Apache-2.0,,f,f,t,t,f,f,f,t,f,t,t,f,t,t,f,t,f,f,f
+cncf,teller,https://github.com/SpectralOps/teller,"{community,code}",f,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,GA3,f,f,f,f,t,f,f,t,f,t,f,t,f,f,f,t,f,f,f
+cncf,thanos,https://github.com/thanos-io/thanos,"{community,code}",t,f,t,t,t,t,t,t,f,t,t,t,f,Apache-2.0,GA3,f,f,f,t,t,t,f,t,t,t,f,t,t,t,f,t,f,f,f
+cncf,tikv,https://github.com/tikv/tikv,"{community,code}",t,f,t,t,t,t,t,t,f,t,t,t,f,Apache-2.0,GA3,f,f,f,t,f,t,f,t,f,t,t,t,f,t,f,t,f,t,f
+cncf,tikv,https://github.com/tikv/pprof-rs,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,tikv,https://github.com/tikv/raft-rs,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,tikv,https://github.com/tikv/grpc-rs,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,tikv,https://github.com/tikv/pd,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,tikv,https://github.com/tikv/rust-prometheus,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+cncf,tinkerbell,https://github.com/tinkerbell/tink,"{community,code}",f,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,GA3,f,f,f,t,f,t,f,t,f,t,t,t,t,t,f,f,f,f,t
+cncf,tremor,https://github.com/tremor-rs/tremor-runtime,"{community,code}",f,t,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,f,t,f,f,f,t,t,f,t,t,f,t,f,f,t
+cncf,trickster,https://github.com/trickstercache/trickster,"{community,code}",t,f,f,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,f,t,f,f,f,t,f,t,t,f,f,t,f,f,t
+cncf,tuf,https://github.com/theupdateframework/python-tuf,"{community,code}",f,f,t,t,t,t,t,t,f,t,t,t,f,Apache-2.0,,f,f,f,t,f,t,t,t,t,t,t,t,t,t,f,t,t,t,t
+cncf,tuf,https://github.com/theupdateframework/specification,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,vineyard,https://github.com/v6d-io/v6d,"{community,code}",f,f,f,t,t,t,t,t,f,t,t,t,t,Apache-2.0,GA4,t,f,f,t,t,t,f,t,t,t,f,t,t,t,f,t,f,f,t
+cncf,virtual-kubelet,https://github.com/virtual-kubelet/virtual-kubelet,"{community,code}",t,t,t,t,t,f,f,t,f,f,t,t,f,Apache-2.0,,f,t,f,f,t,f,f,t,t,t,f,t,t,t,f,f,f,t,f
+cncf,vitess,https://github.com/vitessio/vitess,"{community,code}",t,f,t,t,t,t,t,t,f,t,t,t,t,Apache-2.0,GA4,f,f,f,t,f,t,f,t,f,t,t,t,t,t,f,t,f,t,t
+cncf,vitess,https://github.com/vitessio/website/,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+cncf,volcano,https://github.com/volcano-sh/volcano,{code},,,t,,f,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,f,t,f,t,f,f,
+cncf,volcano,https://github.com/volcano-sh/community,{community},t,f,,t,f,t,,t,t,f,f,,,"Not detected",,,,t,,f,,,,f,,,,,,,t,,,f
+cncf,wasm-cloud,https://github.com/wasmCloud/wasmCloud,"{community,code}",t,f,f,t,t,t,t,t,t,f,t,t,f,Apache-2.0,"GA3 HubSpot",f,f,f,t,t,f,f,f,f,t,t,t,t,t,f,t,f,f,t
+cncf,wasm-edge,https://github.com/WasmEdge/WasmEdge,"{community,code}",f,f,t,t,t,t,t,t,f,f,t,t,t,Apache-2.0,GA4,f,f,t,t,t,t,f,t,t,t,t,t,t,t,f,t,f,f,t
+cncf,werf,https://github.com/werf/werf,"{community,code}",f,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,GA4,t,f,f,t,t,t,f,t,f,t,f,t,t,t,f,t,f,f,t
+cncf,xline,https://github.com/xline-kv/Xline,"{community,code}",f,f,t,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,f,t,f,t,f,t,t,t,f,t,f,f,f,f,f
+cncf,xline,https://github.com/xline-kv/xline-operator,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+cncf,zot,https://github.com/project-zot/zot,"{community,code}",f,f,t,t,t,f,t,t,f,t,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,t,t,t,t,f,t,f,t,f
+lfaidata,1chipml,https://github.com/1chipML/1chipML,"{community,code}",f,f,f,t,t,t,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,f,t,f,f,f,t,t,t,f,f,f,t,f,f,f
+lfaidata,adlik,https://github.com/Adlik/Adlik,"{community,code}",f,f,f,t,t,t,t,t,t,f,f,t,f,Apache-2.0,,f,f,f,f,f,t,f,t,f,t,f,t,t,f,f,f,f,t,f
+lfaidata,adversarial-robustness-toolbox,https://github.com/Trusted-AI/adversarial-robustness-toolbox,"{community,code}",f,f,f,t,t,f,t,t,f,f,t,t,f,MIT,GA3,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,t,f,f,f
+lfaidata,aif360,https://github.com/Trusted-AI/AIF360,"{community,code}",f,f,t,f,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,f,f,f,f,f,t,f,t,t,t,f,f,f,f,f
+lfaidata,aix360,https://github.com/Trusted-AI/AIX360,"{community,code}",f,f,f,f,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,f,f,f,t,f,t,f,t,f,t,f,f,f,f,f
+lfaidata,amundsen,https://github.com/amundsen-io/amundsen,"{community,code}",f,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,t,t,f,f,t,f,t,t,t,t,t,f,t,f,f,f
+lfaidata,amundsen,https://github.com/amundsen-io/amundsenrds,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+lfaidata,amundsen,https://github.com/amundsen-io/amundsengremlin,{code-lite},,,,,f,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+lfaidata,angel-ml,https://github.com/Angel-ML/angel,"{community,code}",f,f,f,f,t,f,t,t,t,f,f,f,f,"Not detected",,f,f,f,f,f,f,f,f,f,t,t,t,t,f,f,f,f,t,f
+lfaidata,angel-ml,https://github.com/Angel-ML/serving,{code-lite},,,,,f,,f,t,,,,f,,"Not detected",,,f,,f,,,,f,,,,,,,,,,,
+lfaidata,angel-ml,https://github.com/Angel-ML/papers-we-learn,{docs},,,,,,,,t,,,,f,,"Not detected",,,,,,,,,,,,,,,,,,,,
+lfaidata,artigraph,https://github.com/artigraph/artigraph,"{community,code}",f,f,t,t,t,t,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,t,f,f,f
+lfaidata,beyond-ml,https://github.com/Beyond-ML-Labs/BeyondML,"{community,code}",f,f,f,t,t,f,f,t,t,f,t,t,f,Apache-2.0,"GA3 GA4",f,f,f,t,f,t,f,t,f,t,f,t,f,t,f,f,f,f,f
+lfaidata,claimed,https://github.com/claimed-framework/component-library,"{community,code}",f,f,t,t,t,f,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,f,t,f,f,f,t,f,t,f,t,f,t,f,f,f
+lfaidata,datapractices,https://github.com/datapractices/data-practices-site,"{community,docs}",f,f,,f,f,f,,t,f,f,t,f,,"Not detected",,,,f,,f,,,,f,,,,,,,f,,,f
+lfaidata,datashim,https://github.com/datashim-io/datashim,"{community,code}",f,f,t,t,t,f,f,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,f,f,f,f
+lfaidata,deepcausality,https://github.com/deepcausality-rs/deep_causality,"{code,community}",f,f,t,t,t,f,t,t,f,f,t,t,f,MIT,,f,f,f,t,t,t,f,t,f,t,f,t,t,f,f,t,f,f,f
+lfaidata,deep-rec,https://github.com/DeepRec-AI/DeepRec,"{code,community}",t,f,f,t,t,t,f,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,f,f,f,t,f,t,f,t,t,t,f,f,f,f,f
+lfaidata,delta,https://github.com/Delta-ML/delta,"{community,code}",f,f,f,f,t,f,t,t,f,f,t,t,f,Apache-2.0,GA3,f,f,f,f,f,f,f,f,f,t,f,t,f,f,f,f,f,t,f
+lfaidata,docarrary,https://github.com/docarray/docarray,"{community,code}",f,f,t,t,t,t,f,t,t,f,t,t,f,Apache-2.0,GA4,f,f,f,t,t,t,f,t,f,t,f,f,f,t,f,t,f,f,f
+lfaidata,egeria,https://github.com/odpi/data-governance,{community},f,f,,f,f,t,,t,f,f,t,,,"Not detected",,,,t,,f,,,,f,,,,,,,f,,,f
+lfaidata,egeria,https://github.com/odpi/egeria-docs,{docs},,,,,,,,t,,,,f,,"Not detected",,,,,,,,,,,,,,,,,,,,
+lfaidata,egeria,https://github.com/odpi/egeria,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,f,t,t,t,f,f,f,t,
+lfaidata,elasticdeeplearning,https://github.com/elasticdeeplearning/edl,"{community,code}",f,f,f,t,t,f,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,f,f,t,f,f,f,t,f,t,f,f,f,f,f,t,f
+lfaidata,elyra,https://github.com/elyra-ai/elyra,"{code,community}",f,f,t,t,t,f,f,t,f,f,t,t,f,Apache-2.0,GA3,f,f,t,t,t,t,f,t,f,t,f,t,t,t,f,t,f,f,f
+lfaidata,fate,https://github.com/FederatedAI/FATE-Serving,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+lfaidata,fate,https://github.com/FederatedAI/FATE,{code},,,f,,t,,f,t,,,,t,f,Apache-2.0,,f,f,,t,,t,f,t,,t,t,t,t,t,f,t,f,f,
+lfaidata,fate,https://github.com/FederatedAI/FATE-Cloud,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,f,,,,,,,,,,,
+lfaidata,fate,https://github.com/FederatedAI/KubeFATE,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+lfaidata,fate,https://github.com/FederatedAI/FATE-Flow,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+lfaidata,fate,https://github.com/FederatedAI/FATE-Community,{community},f,f,,t,t,t,,t,f,f,f,,,"Not detected",,,,t,,f,,,,f,,,,,,,t,,,f
+lfaidata,feast,https://github.com/feast-dev/feast,"{community,code}",f,f,t,f,t,f,t,t,t,f,t,t,f,Apache-2.0,GA3,f,f,f,t,f,f,f,t,f,t,f,f,t,t,f,f,f,f,f
+lfaidata,feathr,https://github.com/linkedin/feathr,"{community,code}",f,f,t,f,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,f,t,t,f,t,f,t,f,f,t,t,f,f,f,f,f
+lfaidata,flag-ai,https://github.com/BAAI-Open/FlagAI,"{community,code}",f,f,t,t,t,t,f,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,f,t,f,t,f,f,f,f,f
+lfaidata,flyte,https://github.com/flyteorg/flytesnacks,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+lfaidata,flyte,https://github.com/flyteorg/flytekit,{code-lite},,,,,f,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+lfaidata,flyte,https://github.com/flyteorg/flyte,"{community,code}",t,f,t,t,t,f,f,t,t,f,t,t,f,Apache-2.0,,t,f,f,t,t,t,f,t,f,t,f,t,t,t,f,f,f,f,f
+lfaidata,forestflow,https://github.com/ForestFlow/ForestFlow,"{community,code}",f,f,f,t,t,f,f,t,f,f,t,t,f,Apache-2.0,HubSpot,f,f,f,t,f,f,f,f,f,t,f,t,t,f,f,f,f,t,t
+lfaidata,horovod,https://github.com/horovod/horovod,"{community,code}",f,f,t,t,t,t,f,t,f,f,t,t,t,Apache-2.0,HubSpot,f,f,f,t,t,t,f,t,f,t,t,f,t,f,f,t,f,t,t
+lfaidata,isf,https://github.com/intersectional-fairness/isf,"{code,community}",f,f,f,t,t,f,t,t,f,f,f,t,f,Apache-2.0,,f,f,f,t,f,f,f,t,f,t,f,t,f,t,f,t,f,t,f
+lfaidata,janusgraph,https://github.com/JanusGraph/docs.janusgraph.org,{docs},,,,,,,,f,,,,f,,"Not detected",,,,,,,,,,,,,,,,,,,,
+lfaidata,janusgraph,https://github.com/JanusGraph/janusgraph,"{community,code}",f,f,f,t,t,t,f,t,f,f,t,f,f,"Not detected",,f,t,f,t,t,t,f,t,f,t,t,t,t,t,f,t,t,f,t
+lfaidata,kedro,https://github.com/quantumblacklabs/kedro,"{community,code}",f,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,t,t,t,t,f,f,f,f,f
+lfaidata,kedro,https://github.com/kedro-org/kedro-viz,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+lfaidata,kompute,https://github.com/KomputeProject/kompute,"{community,code}",f,f,t,t,t,t,f,t,f,f,t,t,f,Apache-2.0,GA4,f,f,t,t,f,t,f,f,f,t,f,t,f,f,f,t,f,f,f
+lfaidata,kserve,https://github.com/kserve/modelmesh-serving,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+lfaidata,kserve,https://github.com/kserve/kserve,"{community,code}",t,f,t,f,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,t,t,t,t,f,t,f,f,f
+lfaidata,lakesoul,https://github.com/meta-soul/LakeSoul,"{code,community}",f,f,f,t,t,f,f,t,t,f,f,t,f,Apache-2.0,,f,f,f,t,f,t,f,f,f,t,f,t,f,f,f,f,f,f,f
+lfaidata,ludwig,https://github.com/ludwig-ai/ludwig,"{community,code}",f,f,t,t,t,f,f,t,f,f,t,t,t,Apache-2.0,,f,f,f,f,t,t,f,t,f,t,f,t,t,t,f,f,f,f,f
+lfaidata,marquez,https://github.com/MarquezProject/marquez,"{community,code}",t,f,t,t,t,t,f,t,f,f,t,t,t,Apache-2.0,GA4,f,f,f,t,f,t,f,t,f,t,f,t,t,t,f,f,f,f,f
+lfaidata,milvus,https://github.com/milvus-io/bootcamp,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+lfaidata,milvus,https://github.com/milvus-io/milvus,{code},,,t,,t,,t,t,,,,t,f,Apache-2.0,,f,f,,t,,f,f,t,,t,f,t,t,t,f,f,f,f,
+lfaidata,milvus,https://github.com/milvus-io/community,{community},f,f,,t,t,f,,t,f,f,f,,,"Not detected",,,,f,,t,,,,f,,,,,,,f,,,f
+lfaidata,ml-exchange,https://github.com/machine-learning-exchange/mlx,"{community,code}",f,f,t,f,t,f,t,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,f,t,f,f,f,t,f,t,t,f,f,f,f,f,f
+lfaidata,nnstreamer,https://github.com/nnstreamer/TAOS-CI,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+lfaidata,nnstreamer,https://github.com/nnstreamer/nnstreamer,"{community,code}",f,f,t,t,t,f,t,t,f,f,t,f,f,LGPL-2.1-only,HubSpot,f,f,f,t,t,t,f,f,f,t,t,t,f,t,f,t,f,f,t
+lfaidata,nnstreamer,https://github.com/nnstreamer/nntrainer,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,t,,,,,,,,,,,
+lfaidata,onnx,https://github.com/onnx/onnx,"{community,code}",f,f,f,t,t,f,t,t,t,f,t,t,f,Apache-2.0,,f,f,t,t,t,t,t,t,f,t,f,t,t,t,f,t,f,f,f
+lfaidata,onnx,https://github.com/onnx/models,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+lfaidata,onnx,https://github.com/onnx/onnx.github.io,"{docs,community}",f,f,,t,f,f,,f,t,f,t,f,,"Not detected",,,,f,,f,,,,f,,,,,,,f,,,f
+lfaidata,openbytes,https://github.com/Project-OpenBytes/OpenBytes,"{community,code}",f,f,t,t,t,t,f,t,f,f,f,t,f,CC-BY-4.0,,f,f,f,f,f,f,f,f,f,t,f,t,f,f,f,t,f,f,f
+lfaidata,opendataology,https://github.com/OpenDataology/OpenDataology,{community},f,f,,t,t,t,,t,f,f,f,,,"Not detected",,,,t,,f,,,,f,,,,,,,t,,,f
+lfaidata,opends4all,https://github.com/odpi/OpenDS4All,"{community,code}",t,f,f,t,t,t,f,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,f,f,f,f,f,t,t,t,f,f,f,f,f,t,t
+lfaidata,openfl,https://github.com/intel/openfl,"{code,community}",f,f,t,t,t,t,t,t,t,f,t,t,f,Apache-2.0,GA3,f,f,t,t,t,t,f,t,f,t,f,t,t,t,f,t,f,t,f
+lfaidata,openlineage,https://github.com/OpenLineage/OpenLineage,"{community,code}",f,f,t,t,t,t,f,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,t,f,t,f,t,f,t,t,t,f,f,f,f,f
+lfaidata,pyro,https://github.com/pyro-ppl/numpyro,{code-lite},,,,,t,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+lfaidata,pyro,https://github.com/pyro-ppl/pyro,"{community,code}",f,f,t,t,t,f,f,t,f,f,t,t,f,Apache-2.0,,f,f,f,f,f,t,f,t,f,t,t,t,f,t,f,f,f,f,f
+lfaidata,pyro,https://github.com/pyro-ppl/funsor,{code-lite},,,,,f,,f,t,,,,t,,Apache-2.0,,,f,,f,,,,t,,,,,,,,,,,
+lfaidata,recommenders,https://github.com/microsoft/recommenders,"{code,community}",f,f,t,t,t,f,t,t,f,f,t,t,f,MIT,GA3,f,f,f,t,t,f,f,f,f,t,t,t,t,t,f,t,f,f,f
+lfaidata,rosaenlg,https://github.com/RosaeNLG/rosaenlg,"{community,code}",f,f,t,t,t,t,t,t,t,f,t,t,t,Apache-2.0,,f,f,f,t,f,t,f,f,f,t,f,t,t,t,f,t,f,f,f
+lfaidata,rosaenlg,https://github.com/RosaeNLG/rosaenlg-java,{code-lite},,,,,t,,t,t,,,,t,,Apache-2.0,,,f,,t,,,,f,,,,,,,,,,,
+lfaidata,shadernn,https://github.com/inferenceengine/shadernn,"{code,community}",f,f,f,t,t,f,f,t,f,f,f,t,f,Apache-2.0,,f,f,f,f,f,f,f,f,f,t,f,t,f,f,f,t,f,t,f
+lfaidata,soajs,https://github.com/soajs/soajs,"{community,code}",f,f,f,f,f,f,f,t,f,f,f,t,t,Apache-2.0,,f,f,f,f,f,f,f,t,f,t,f,t,f,f,f,t,f,t,f
+lfaidata,sparklyr,https://github.com/sparklyr/sparklyr,"{community,code}",f,f,t,t,f,f,f,t,f,f,t,t,f,Apache-2.0,HubSpot,f,f,f,t,t,f,f,t,f,f,f,t,f,t,f,f,f,f,t
+lfaidata,substra,https://github.com/Substra/substra-documentation,{docs},,,,,,,,t,,,,t,,Apache-2.0,,,,,,,,,,,,,,,,,,,,
+lfaidata,substra,https://github.com/Substra/substra,"{community,code}",f,f,t,t,t,f,t,t,f,f,t,t,f,Apache-2.0,GA3,f,f,f,t,f,f,f,t,f,t,t,t,t,t,f,f,f,f,f
+lfaidata,tony,https://github.com/tony-framework/TonY,"{community,code}",f,f,t,t,t,f,f,t,f,f,t,f,f,"Not detected",HubSpot,f,f,f,t,f,t,f,f,f,t,t,t,f,f,f,f,f,f,f
+lfaidata,xtreme1,https://github.com/xtreme1-io/xtreme1,"{code,community}",f,f,f,t,f,f,f,t,f,f,t,t,f,Apache-2.0,,f,f,f,t,t,f,f,t,f,t,f,t,f,t,f,t,f,f,f
