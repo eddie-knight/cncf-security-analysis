@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"time"
 )
 
@@ -57,4 +58,14 @@ func getLastDaysOfMonths() []string {
 	}
 	fmt.Println(days)
 	return days
+}
+
+func writeToFile(filename string, data string) {
+	file, err := os.Create(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer file.Close()
+
+	file.WriteString(data)
 }

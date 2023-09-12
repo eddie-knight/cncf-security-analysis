@@ -1,9 +1,10 @@
 package main
 
 func main() {
-	repos := Projects{}
-	repos.Init()
-
+	projects := Projects{}
+	projects.Init()
+	projects.WriteOverviewData()
+	projects.WriteSecurityData()
 	// // print all unique project names
 	// for _, project := range repos.GetProjects() {
 	// 	fmt.Println(project)
@@ -19,8 +20,8 @@ func main() {
 	// 	fmt.Println(checkSet)
 	// }
 
-	// print project data for argo
-	// data := repos.GetProjectData("argo")
+	// test getting project data
+	// data := projects.GetProjectData("akri")
 	// jsonData, _ := json.MarshalIndent(data, "", "  ")
-	// fmt.Println(string(jsonData))
+	// ioutil.WriteFile("akri.json", jsonData, 0644)
 }

@@ -345,8 +345,70 @@ func (ps *ProjectScore) ToCSV() string {
 func (cr *CheckResults) SummaryScoreCSV() string {
 	return fmt.Sprintf("%s,%s,%s,%s\n",
 		cr.Name,
-		time.Unix(cr.UpdatedAt, 0),
+		time.Unix(cr.UpdatedAt, 0).Format("2006-01"),
 		cr.Rating,
 		cr.Score.ToCSV(),
 	)
+}
+
+func (s *Security) GetSecurityResults() string {
+	return fmt.Sprintf("%t,%t,%t,%t,%t,%t,%t,%t,%t",
+		s.SBOM.Passed,
+		s.Maintained.Passed,
+		s.CodeReview.Passed,
+		s.SecurityPolicy.Passed,
+		s.SignedReleases.Passed,
+		s.BinaryArtifacts.Passed,
+		s.TokenPermissions.Passed,
+		s.DangerousWorkflow.Passed,
+		s.DependencyUpdateTool.Passed,
+	)
+}
+
+func (cr *CheckResults) GetSecurityCSV() (csv string) {
+	for _, repo := range cr.Repositories {
+		if !contains(repo.CheckSets, "code") && !contains(repo.CheckSets, "code-lite") {
+			continue
+		}
+		csv += fmt.Sprintf("%s,%s,%f,%s,%s,%s,%s,%t,%s\n",
+			repo.URL,
+			time.Unix(cr.UpdatedAt, 0).Format("2006-01"),
+			repo.Score.Security,
+			cr.Name,
+			cr.Foundation,
+			cr.Maturity,
+			repo.CheckSets,
+			IsSlam22Participant(cr.Foundation),
+			repo.Report.Data.Security.GetSecurityResults(),
+		)
+	}
+	return csv
+}
+
+// GetSecScoreCSVHeaders returns the CSV headers for GetSecurityCSV, which includes GetSecurityResults as well.
+func GetSecScoreCSVHeaders() (csv string) {
+	return "URL,Date,Security Score,Project,Foundation,Maturity,CheckSets,Slam23 Participant,SBOM,Maintained,Code Review,Security Policy,Signed Releases,Binary Artifacts,Token Permissions,Dangerous Workflow,Dependency Update Tool\n"
+}
+
+func IsSlam22Participant(projectName string) bool {
+	participants := []string{
+		"argo",
+		"artifact-hub",
+		"chaos-mesh",
+		"cloudevents",
+		"cortex",
+		"flagger",
+		"flux",
+		"k8gb",
+		"kubewarden",
+		"open-feature",
+		"pixie",
+	}
+	// if projectName is in participants, return true
+	for _, participant := range participants {
+		if projectName == participant {
+			return true
+		}
+	}
+	return false
 }

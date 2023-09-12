@@ -4,13 +4,12 @@ import (
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
-	"log"
-	"os"
+	"strings"
 )
 
 type Projects struct {
 	metadata []ProjectMetadata
-	projects []ProjectData
+	data     []ProjectData
 }
 
 type ProjectData struct {
@@ -141,7 +140,7 @@ func (p *Projects) GetCheckSets() []string {
 // CountAPIEndpoints will count all API endpoints for all projects. Should total over 2600.
 func (p *Projects) CountAPIEndpoints() int {
 	var count int
-	for _, project := range p.projects {
+	for _, project := range p.data {
 		count += len(p.GetAPIEndpointsByProject(project.ProjectName))
 	}
 	return count
@@ -162,7 +161,7 @@ func (p *Projects) GetAPIEndpointsByProject(project string) (endpoints []string)
 
 // SetProjectDataValues will set the values of the Projects object
 func (p *Projects) SetProjectDataValues(projectName string) {
-	p.projects = append(p.projects, ProjectData{
+	p.data = append(p.data, ProjectData{
 		ProjectName:            projectName,
 		CheckResultEndpoints:   p.GetAPIEndpointsByProject(projectName),
 		HistoricalCheckResults: p.GetHistoricalCheckResults(projectName),
@@ -185,7 +184,7 @@ func (p *Projects) GetHistoricalCheckResults(projectName string) (checkResults [
 
 // GetProjectData returns a ProjectData object matching a given project name
 func (p *Projects) GetProjectData(name string) ProjectData {
-	for _, project := range p.projects {
+	for _, project := range p.data {
 		if project.ProjectName == name {
 			return project
 		}
@@ -207,7 +206,6 @@ func (p *Projects) SetProjectMetadataValues() {
 	for i := 1; i < len(records); i++ {
 		// record is a list of string values compatible with Repository struct values if converted
 		record := records[i]
-
 		// create new Repository object with record values
 		projectMetadata := ProjectMetadata{
 			Foundation:                record[0],
@@ -259,38 +257,50 @@ func (p *Projects) Init() {
 	p.SetProjectMetadataValues()
 	totalCount := len(p.metadata)
 	for progress, project := range p.metadata {
-		if progress > 3 {
-			break
-		}
+		// if progress > 3 {
+		// 	break
+		// }
 		fmt.Printf("Progress: %d/%d\n", progress+1, totalCount)
 		p.SetProjectDataValues(project.Project)
 	}
-	p.WriteAllProjectData()
 }
 
-// WriteAllProjectData will write all project data to a file in CSV format
-func (p *Projects) WriteAllProjectData() {
+// WriteOverviewData will write all project data to a file in CSV format
+func (p *Projects) WriteOverviewData() {
 	csv := "ProjectName, UpdatedAt, Global, BestPractices, Documentation, Legal, License, Security\n"
-	for _, project := range p.projects {
-		csv += project.CLOMonitorScoreCSV()
+	for _, project := range p.data {
+		csv += project.GetOverviewScoreCSV()
 	}
 	// fmt.Println(csv)
-	writeToFile("all-projects.csv", csv)
+	writeToFile("project-summaries.csv", csv)
 }
 
-func (p *ProjectData) CLOMonitorScoreCSV() (csv string) {
+// WriteSecurityData will write SecurityScores to a file in CSV format
+func (p *Projects) WriteSecurityData() {
+	csv := GetSecScoreCSVHeaders()
+	for _, project := range p.data {
+		dataString := project.GetSecurityScoresCSV()
+		if !strings.Contains(csv, dataString) { // been getting some unexpected duplicates from p.data
+			csv += dataString
+		}
+	}
+	writeToFile("project-security-scores.csv", csv)
+}
+
+func (p *ProjectData) GetOverviewScoreCSV() (csv string) {
 	for _, results := range p.HistoricalCheckResults {
 		csv += results.SummaryScoreCSV()
 	}
 	return
 }
 
-func writeToFile(filename string, data string) {
-	file, err := os.Create(filename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
+func (p *ProjectData) GetSecurityScoresCSV() (csv string) {
+	for _, results := range p.HistoricalCheckResults {
+		dataString := results.GetSecurityCSV()
+		if !strings.Contains(csv, dataString) { // been getting some additional unexpected duplicates in spite of the other checks
+			csv += dataString
+		}
 
-	file.WriteString(data)
+	}
+	return
 }
