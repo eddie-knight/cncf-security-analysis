@@ -297,10 +297,9 @@ func (p *ProjectData) GetOverviewScoreCSV() (csv string) {
 func (p *ProjectData) GetSecurityScoresCSV() (csv string) {
 	for _, results := range p.HistoricalCheckResults {
 		dataString := results.GetSecurityCSV()
-		if !strings.Contains(csv, dataString) { // been getting some additional unexpected duplicates in spite of the other checks
+		if !strings.Contains(csv, dataString) { // still getting some additional unexpected duplicates in spite of the other checks
 			csv += dataString
 		}
-
 	}
 	return
 }

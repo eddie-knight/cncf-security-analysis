@@ -8,7 +8,10 @@ import (
 	"time"
 )
 
+var REQUEST_COUNTER = 0
+
 func getHttpResponse(url string) *http.Response {
+	REQUEST_COUNTER++
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		log.Fatal(err)
@@ -68,4 +71,11 @@ func writeToFile(filename string, data string) {
 	defer file.Close()
 
 	file.WriteString(data)
+}
+
+func boolToInt(b bool) int {
+	if b {
+		return 1
+	}
+	return 0
 }

@@ -352,22 +352,22 @@ func (cr *CheckResults) SummaryScoreCSV() string {
 }
 
 func (s *Security) GetSecurityResults() string {
-	return fmt.Sprintf("%t,%t,%t,%t,%t,%t,%t,%t,%t",
-		s.SBOM.Passed,
-		s.Maintained.Passed,
-		s.CodeReview.Passed,
-		s.SecurityPolicy.Passed,
-		s.SignedReleases.Passed,
-		s.BinaryArtifacts.Passed,
-		s.TokenPermissions.Passed,
-		s.DangerousWorkflow.Passed,
-		s.DependencyUpdateTool.Passed,
+	return fmt.Sprintf("%d,%d,%d,%d,%d,%d,%d,%d,%d",
+		boolToInt(s.SBOM.Passed),
+		boolToInt(s.Maintained.Passed),
+		boolToInt(s.CodeReview.Passed),
+		boolToInt(s.SecurityPolicy.Passed),
+		boolToInt(s.SignedReleases.Passed),
+		boolToInt(s.BinaryArtifacts.Passed),
+		boolToInt(s.TokenPermissions.Passed),
+		boolToInt(s.DangerousWorkflow.Passed),
+		boolToInt(s.DependencyUpdateTool.Passed),
 	)
 }
 
 func (cr *CheckResults) GetSecurityCSV() (csv string) {
 	for _, repo := range cr.Repositories {
-		if !contains(repo.CheckSets, "code") && !contains(repo.CheckSets, "code-lite") {
+		if !contains(repo.CheckSets, "code") {
 			continue
 		}
 		csv += fmt.Sprintf("%s,%s,%f,%s,%s,%s,%s,%t,%s\n",
@@ -378,7 +378,7 @@ func (cr *CheckResults) GetSecurityCSV() (csv string) {
 			cr.Foundation,
 			cr.Maturity,
 			repo.CheckSets,
-			IsSlam22Participant(cr.Foundation),
+			IsSlam22Participant(cr.Name),
 			repo.Report.Data.Security.GetSecurityResults(),
 		)
 	}
@@ -387,10 +387,10 @@ func (cr *CheckResults) GetSecurityCSV() (csv string) {
 
 // GetSecScoreCSVHeaders returns the CSV headers for GetSecurityCSV, which includes GetSecurityResults as well.
 func GetSecScoreCSVHeaders() (csv string) {
-	return "URL,Date,Security Score,Project,Foundation,Maturity,CheckSets,Slam23 Participant,SBOM,Maintained,Code Review,Security Policy,Signed Releases,Binary Artifacts,Token Permissions,Dangerous Workflow,Dependency Update Tool\n"
+	return "URL,Date,Security Score,Project,Foundation,Maturity,CheckSets,Slam22 Participant,SBOM,Maintained,Code Review,Security Policy,Signed Releases,Binary Artifacts,Token Permissions,Dangerous Workflow,Dependency Update Tool\n"
 }
 
-func IsSlam22Participant(projectName string) bool {
+func IsSlam22Participant(projectName string) string {
 	participants := []string{
 		"argo",
 		"artifact-hub",
@@ -407,8 +407,8 @@ func IsSlam22Participant(projectName string) bool {
 	// if projectName is in participants, return true
 	for _, participant := range participants {
 		if projectName == participant {
-			return true
+			return fmt.Sprintf("Yes: %s", projectName)
 		}
 	}
-	return false
+	return fmt.Sprintf("No: %s", projectName)
 }

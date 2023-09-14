@@ -1,10 +1,14 @@
 package main
 
+import "fmt"
+
 func main() {
 	projects := Projects{}
 	projects.Init()
 	projects.WriteOverviewData()
 	projects.WriteSecurityData()
+	fmt.Printf("Completed %d requests\n", REQUEST_COUNTER)
+
 	// // print all unique project names
 	// for _, project := range repos.GetProjects() {
 	// 	fmt.Println(project)
