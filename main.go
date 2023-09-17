@@ -3,6 +3,12 @@ package main
 import "fmt"
 
 func main() {
+	// New CSVContent to read for project-security-scores.csv and fix the CSV contents
+	// csvContent := CSVContent{}
+	// csvContent.ReadCSV("project-security-scores.csv")
+	// csvContent.FixBooleanValues()
+
+	// *** API Calls ***
 	projects := Projects{}
 	projects.Init()
 	projects.WriteOverviewData()
@@ -25,7 +31,7 @@ func main() {
 	// }
 
 	// test getting project data
-	// data := projects.GetProjectData("akri")
+	// data := projects.GetProjectData("cloudevents")
 	// jsonData, _ := json.MarshalIndent(data, "", "  ")
-	// ioutil.WriteFile("akri.json", jsonData, 0644)
+	// ioutil.WriteFile("cloudevents.json", jsonData, 0644)
 }

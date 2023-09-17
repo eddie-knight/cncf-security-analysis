@@ -257,10 +257,7 @@ func (p *Projects) Init() {
 	p.SetProjectMetadataValues()
 	totalCount := len(p.metadata)
 	for progress, project := range p.metadata {
-		// if progress > 3 {
-		// 	break
-		// }
-		fmt.Printf("Progress: %d/%d\n", progress+1, totalCount)
+		fmt.Printf("Data Collection Progress: %d/%d\n", progress+1, totalCount)
 		p.SetProjectDataValues(project.Project)
 	}
 }
@@ -271,20 +268,22 @@ func (p *Projects) WriteOverviewData() {
 	for _, project := range p.data {
 		csv += project.GetOverviewScoreCSV()
 	}
-	// fmt.Println(csv)
 	writeToFile("project-summaries.csv", csv)
 }
 
 // WriteSecurityData will write SecurityScores to a file in CSV format
 func (p *Projects) WriteSecurityData() {
 	csv := GetSecScoreCSVHeaders()
+	var dataNames []string
 	for _, project := range p.data {
+		dataNames = append(dataNames, project.ProjectName)
 		dataString := project.GetSecurityScoresCSV()
-		if !strings.Contains(csv, dataString) { // been getting some unexpected duplicates from p.data
+		if !strings.Contains(csv, dataString) { // been getting some unexpected spaces from p.data
 			csv += dataString
 		}
 	}
-	writeToFile("project-security-scores.csv", csv)
+	fmt.Println(dataNames)
+	writeToFile("cloudevents-security-scores.csv", csv)
 }
 
 func (p *ProjectData) GetOverviewScoreCSV() (csv string) {
@@ -297,7 +296,7 @@ func (p *ProjectData) GetOverviewScoreCSV() (csv string) {
 func (p *ProjectData) GetSecurityScoresCSV() (csv string) {
 	for _, results := range p.HistoricalCheckResults {
 		dataString := results.GetSecurityCSV()
-		if !strings.Contains(csv, dataString) { // still getting some additional unexpected duplicates in spite of the other checks
+		if !strings.Contains(csv, dataString) { // still getting some extra spaces in the CSV
 			csv += dataString
 		}
 	}

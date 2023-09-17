@@ -390,7 +390,7 @@ func GetSecScoreCSVHeaders() (csv string) {
 	return "URL,Date,Security Score,Project,Foundation,Maturity,CheckSets,Slam22 Participant,SBOM,Maintained,Code Review,Security Policy,Signed Releases,Binary Artifacts,Token Permissions,Dangerous Workflow,Dependency Update Tool\n"
 }
 
-func IsSlam22Participant(projectName string) string {
+func IsSlam22Participant(projectName string) bool {
 	participants := []string{
 		"argo",
 		"artifact-hub",
@@ -398,17 +398,17 @@ func IsSlam22Participant(projectName string) string {
 		"cloudevents",
 		"cortex",
 		"flagger",
-		"flux",
+		"flux-project",
 		"k8gb",
 		"kubewarden",
-		"open-feature",
+		"openfeature",
 		"pixie",
 	}
 	// if projectName is in participants, return true
 	for _, participant := range participants {
 		if projectName == participant {
-			return fmt.Sprintf("Yes: %s", projectName)
+			return true
 		}
 	}
-	return fmt.Sprintf("No: %s", projectName)
+	return false
 }
